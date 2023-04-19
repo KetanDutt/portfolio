@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -35,4 +36,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+.bg {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
+  max-height: 100vh;
+  min-height: 100vh;
+  align-self: center;
+  display: block;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  background-image: linear-gradient(158deg, #444 0%, #111 100%);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.lgog {
+  align-self: center;
+  display: block;
+  box-shadow: 7.07px 7.07px 20px #000000;
+  border-radius: 100%;
+  width: 20vw;
+  height: 20vw;
+}
+.name {
+  display: block;
+  align-items: center;
+  align-self: center;
+  padding: 0px;
+  margin: 3px;
+}
+.description {
+  display: block;
+  font-size: 18px;
+  margin: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: visible;
+  align-self: center;
+  margin: 30px 30px 0px;
+}
+.nameParent {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px 20px;
 }

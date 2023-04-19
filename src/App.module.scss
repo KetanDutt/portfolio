@@ -73,6 +73,12 @@
   border-radius: 100%;
   height: 25vh;
   width: 25vh;
+  transition: .1s ease-in-out;
+
+  &:hover {
+    width: 26vh;
+    height: 26vh;
+  }
 }
 
 .name {
@@ -124,7 +130,7 @@
   height: 50px;
   border-radius: 0px;
   margin: 10px 20px 20px;
-  transition: .3s ease-in-out;
+  transition: 0.1s ease-in-out;
 
   &:hover {
     width: 70px;
@@ -142,4 +148,15 @@
   justify-content: center;
   width: auto;
   height: 100px;
+}
+
+.logoParent {
+  width: 26vh;
+  height: 26vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
 }

@@ -9,7 +9,9 @@ function App() {
                 <Projects />
                 <div className={styles.bg}>
                     <div className={styles.header}>
-                        <img src={img} className={styles.lgog} />
+                        <div className={styles.logoParent}>
+                            <img src={img} className={styles.lgog} />
+                        </div>
                         <div className={styles.nameParent}>
                             <p className={styles.name}>Ketan Dutt</p>
                             <p className={styles.description}>

@@ -14,12 +14,12 @@ export const Projects = ({ className }: ProjectsProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.projects}>
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <Card name='Game 1' />
+                <Card name='Game 2' />
+                <Card name='Game 3' />
+                <Card name='Game 4' />
+                <Card name='Game 5' />
+                <Card name='Game 6' />
             </div>
         </div>
     );

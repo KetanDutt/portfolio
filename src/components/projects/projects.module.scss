@@ -48,4 +48,9 @@
   overflow: scroll;
   align-self: center;
   padding: 20px;
+  flex-wrap: nowrap;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 2;
 }

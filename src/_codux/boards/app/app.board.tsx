@@ -6,8 +6,8 @@ export default createBoard({
     Board: () => <App key={null} />,
     environmentProps: {
         canvasBackgroundColor: '#4a4a4a',
-        windowWidth: 1024,
-        windowHeight: 768,
+        windowWidth: 441,
+        windowHeight: 674,
         canvasWidth: 1784,
     },
 });

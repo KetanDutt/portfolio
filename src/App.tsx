@@ -1,6 +1,6 @@
 import styles from './App.module.scss';
 import { Projects } from './components/projects/projects';
-import img from '../assets/logo.jpeg';
+import img from './assets/logo.jpeg';
 
 function App() {
     return (
@@ -11,10 +11,29 @@ function App() {
                     <div className={styles.header}>
                         <img src={img} className={styles.lgog} />
                         <div className={styles.nameParent}>
-                            <h4 className={styles.name}>Ketan Dutt</h4>
+                            <p className={styles.name}>Ketan Dutt</p>
                             <p className={styles.description}>
                                 A Passionate Game Developer from India
                             </p>
+                            <p className={styles.connectText}>Connect with me</p>
+                            <div className={styles.connectImgParent}>
+                                <img
+                                    src="https://raw.githubusercontent.com/KetanDutt/KetanDutt.github.io-Source/master/assets/gmail.png"
+                                    className={styles.connectImg}
+                                />
+                                <img
+                                    src="https://raw.githubusercontent.com/KetanDutt/KetanDutt.github.io-Source/master/assets/github.png"
+                                    className={styles.connectImg}
+                                />
+                                <img
+                                    src="https://raw.githubusercontent.com/KetanDutt/KetanDutt.github.io-Source/master/assets/instagram.png"
+                                    className={styles.connectImg}
+                                />
+                                <img
+                                    src="https://raw.githubusercontent.com/KetanDutt/KetanDutt.github.io-Source/master/assets/linkedin.png"
+                                    className={styles.connectImg}
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

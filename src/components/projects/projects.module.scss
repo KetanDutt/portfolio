@@ -1,4 +1,5 @@
-.root {}
+.root {
+}
 
 .Card {
   display: flex;
@@ -16,7 +17,7 @@
   margin: 0px 20px 0px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   background-color: #111;
-  transition: .1s ease-in-out;
+  transition: 0.1s ease-in-out;
 
   &:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
@@ -59,7 +60,7 @@
   justify-content: start;
   overflow: scroll;
   align-self: center;
-  padding: 20px;
+  padding: 20px 20px 40px;
   flex-wrap: nowrap;
   position: absolute;
   left: 0px;
@@ -67,4 +68,5 @@
   z-index: 2;
   width: auto;
   height: 36vh;
+  opacity: 1;
 }

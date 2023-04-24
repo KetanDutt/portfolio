@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  align-content: space-evenly;
-  justify-content: space-between;
+  align-content: center;
+  justify-content: space-around;
   overflow: hidden;
   align-self: center;
   text-align: center;
@@ -24,21 +24,48 @@
     max-height: 37vh;
   }
 
-  flex-wrap: nowrap;
   width: 25vh;
   height: 35vh;
   min-width: 25vh;
   max-width: 25vh;
   min-height: 35vh;
   max-height: 35vh;
+  padding: 0px;
 }
 
 .CardHeading {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   text-transform: capitalize;
   color: white;
   font-weight: 600;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  white-space: pre-wrap;
+  min-height: 7vh;
+
+  &:link {
+    text-decoration: none;
+  }
+
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:active {
+    text-decoration: none;
+  }
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .cardText {
@@ -46,11 +73,23 @@
   color: WHITE;
   font-size: 14px;
   font-weight: 300;
+  white-space: pre-wrap;
+  margin: 0px;
+  padding: 1px;
+  text-align: center;
 }
 
 .cardImg {
   display: block;
+  margin: 0px;
   width: 100%;
   height: 100%;
-  margin: 0px;
+}
+.cardBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
 }

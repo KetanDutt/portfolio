@@ -6,6 +6,9 @@ function App() {
     return (
         <div className={styles.App}>
             <Header />
+            <p className={styles.someGames}>
+                A few of the games I have been involved in developing.
+            </p>
             <Scroller />
         </div>
     );

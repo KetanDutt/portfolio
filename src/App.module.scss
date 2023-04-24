@@ -22,17 +22,24 @@
   align-items: start;
   justify-items: start;
   align-content: center;
-  justify-content: space-between;
-  align-self: start;
+  justify-content: center;
+  align-self: center;
   overflow: hidden;
   color: white;
   min-height: 100vh;
   margin: 0px;
   padding: 0px;
+  max-height: 100vh;
 }
 .projects {
   margin: 0px 2px 0px 30px;
   padding: 0px;
   text-align: start;
   font-weight: 500;
+}
+.someGames {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
 }

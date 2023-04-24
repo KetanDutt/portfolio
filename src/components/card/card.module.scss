@@ -1,2 +1,48 @@
 .root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: space-evenly;
+  justify-content: space-between;
+  overflow: hidden;
+  align-self: center;
+  text-align: center;
+  border-radius: 2vh;
+  height: 35vh;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  background-color: #111;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    width: 26vh;
+    height: 36vh;
+  }
+  flex-wrap: nowrap;
+  width: 25vh;
+  min-width: 25vh;
+  max-width: 25vh;
+  min-height: 35vh;
+  max-height: 35vh;
+}
+
+.CardHeading {
+  font-size: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+}
+
+.cardText {
+  display: block;
+  color: WHITE;
+}
+
+.cardImg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
 }

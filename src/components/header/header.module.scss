@@ -1,0 +1,89 @@
+.root {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  color: white;
+}
+
+.header {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logoHeader {
+  width: 25vh;
+  height: 25vh;
+  border-radius: 100%;
+  box-shadow: 7.07px 7.07px 20px #000000;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    width: 26vh;
+    height: 26vh;
+  }
+
+  margin: 2px;
+}
+
+.logoParent {
+  width: 26vh;
+  height: 26vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 0px;
+}
+
+.description {
+  font-weight: 400;
+  padding: 0px;
+  margin: 10px;
+  font-size: 17px;
+}
+
+.connectText {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.connectImgParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 10vh;
+  max-height: 10vh;
+  min-height: 10vh;
+  margin: 10px;
+}
+
+.connectImg {
+  width: 6vh;
+  height: 6vh;
+  border-radius: 0px;
+  margin: 2vh;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    height: 7vh;
+    width: 7vh;
+  }
+}

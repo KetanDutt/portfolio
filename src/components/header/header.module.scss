@@ -23,10 +23,11 @@
   width: 25vh;
   height: 25vh;
   border-radius: 100%;
-  box-shadow: 7.07px 7.07px 20px #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   transition: 0.1s ease-in-out;
 
   &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
     width: 26vh;
     height: 26vh;
   }
@@ -83,7 +84,7 @@
   transition: 0.1s ease-in-out;
 
   &:hover {
-    height: 7vh;
-    width: 7vh;
+    height: 8vh;
+    width: 8vh;
   }
 }

@@ -9,7 +9,6 @@
   align-self: center;
   text-align: center;
   border-radius: 2vh;
-  height: 35vh;
   margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   background-color: #111;
@@ -17,11 +16,17 @@
 
   &:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
-    width: 26vh;
-    height: 36vh;
+    width: 27vh;
+    height: 37vh;
+    min-width: 27vh;
+    max-width: 27vh;
+    min-height: 37vh;
+    max-height: 37vh;
   }
+
   flex-wrap: nowrap;
   width: 25vh;
+  height: 35vh;
   min-width: 25vh;
   max-width: 25vh;
   min-height: 35vh;
@@ -29,15 +34,18 @@
 }
 
 .CardHeading {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   text-transform: capitalize;
   color: white;
+  font-weight: 600;
 }
 
 .cardText {
   display: block;
   color: WHITE;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .cardImg {

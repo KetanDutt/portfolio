@@ -1,6 +1,10 @@
 import styles from './header.module.scss';
 import classNames from 'classnames';
 import img from '../../assets/logo.jpeg';
+import gmail from '../../assets/gmail.png';
+import github from '../../assets/github.png';
+import instagram from '../../assets/instagram.png';
+import linkdin from '../../assets/linkedin.png';
 
 export interface HeaderProps {
     className?: string;
@@ -25,13 +29,13 @@ export const Header = ({ className }: HeaderProps) => {
             <div className={styles.connectImgParent}>
                 <a href="mailto:ketan6196@gmail.com" target="_blank" rel="noreferrer">
                     <img
-                        src="https://raw.githubusercontent.com/KetanDutt/KetanDutt.github.io-Source/master/assets/gmail.png"
+                        src={gmail}
                         className={styles.connectImg}
                     />
                 </a>
                 <a href="https://github.com/KetanDutt" target="_blank" rel="noreferrer">
                     <img
-                        src="https://raw.githubusercontent.com/KetanDutt/KetanDutt.github.io-Source/master/assets/github.png"
+                        src={github}
                         className={styles.connectImg}
                     />
                 </a>
@@ -41,7 +45,7 @@ export const Header = ({ className }: HeaderProps) => {
                     rel="noreferrer"
                 >
                     <img
-                        src="https://raw.githubusercontent.com/KetanDutt/KetanDutt.github.io-Source/master/assets/instagram.png"
+                        src={instagram}
                         className={styles.connectImg}
                     />
                 </a>
@@ -51,7 +55,7 @@ export const Header = ({ className }: HeaderProps) => {
                     rel="noreferrer"
                 >
                     <img
-                        src="https://raw.githubusercontent.com/KetanDutt/KetanDutt.github.io-Source/master/assets/linkedin.png"
+                        src={linkdin}
                         className={styles.connectImg}
                     />
                 </a>

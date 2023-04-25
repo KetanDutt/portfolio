@@ -31,6 +31,7 @@
   min-height: 35vh;
   max-height: 35vh;
   padding: 0px;
+  position: relative;
 }
 
 .CardHeading {
@@ -43,7 +44,6 @@
   padding: 10px;
   display: flex;
   white-space: pre-wrap;
-  min-height: 7vh;
 
   &:link {
     text-decoration: none;
@@ -66,6 +66,7 @@
   justify-items: center;
   align-content: center;
   justify-content: center;
+  min-height: 5vh;
 }
 
 .cardText {
@@ -92,4 +93,36 @@
   justify-items: center;
   align-content: center;
   justify-content: center;
+}
+.cardIcon {
+  height: 40px;
+  position: static;
+  top: auto;
+  width: 40px;
+  left: 10px;
+}
+.cardIconDiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-items: start;
+  align-content: start;
+  justify-content: start;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  float: left;
+  width: 0px;
+  height: 0px;
+  text-align: center;
+}
+.cardheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
 }

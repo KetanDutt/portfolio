@@ -6,6 +6,7 @@ import { CVDownload } from './components/cv-download/cv-download';
 function App() {
     return (
         <div className={styles.App}>
+            <div className={styles['ios-peek']} />
             <CVDownload />
             <Header />
             <p className={styles.someGames}>Below are some of the games I've worked on</p>

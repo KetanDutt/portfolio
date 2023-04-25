@@ -31,15 +31,33 @@
   padding: 0px;
   max-height: 100vh;
 }
+
 .projects {
   margin: 0px 2px 0px 30px;
   padding: 0px;
   text-align: start;
   font-weight: 500;
 }
+
 .someGames {
   margin: 0px;
   padding: 0px;
   text-align: center;
   width: 100%;
+}
+
+.ios-peek {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  z-index: -1;
+  background-color: transparent;
+  background-image: linear-gradient(135deg, #111 0%, #666 100%);
+  background-position: 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
 }

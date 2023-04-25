@@ -1,11 +1,16 @@
 import styles from './scroller.module.scss';
 import classNames from 'classnames';
 import { Card } from '../card/card';
+
+import BMXKid from "../../assets/games/BMX.png";
+import BikeStunt from "../../assets/games/BikeStunt.png";
+import StuntExtreme from "../../assets/games/StuntExtreme.png";
 import StrikeForce from "../../assets/games/Strikeforce.webp";
 import FruitCutter from "../../assets/games/FruitCutter.png";
 import MissionDestruction from "../../assets/games/MissionDestruction.png";
 import StreetRacer from "../../assets/games/StreetRacer.png";
 import Archery3D from "../../assets/games/Archery3D.png";
+
 import google from "../../assets/playIcon.png";
 import amazon from "../../assets/amazon.webp";
 import roku from "../../assets/roku.png";
@@ -42,6 +47,24 @@ export const Scroller = ({ className }: ScrollerProps) => {
             "src": Archery3D,
             "name": "Archery 3D",
             "link": "https://channelstore.roku.com/en-ot/details/2edfa2fc934a314ec657942166bbc853/archery-3d",
+            "icon": roku
+        },
+        {
+            "src": StuntExtreme,
+            "name": "Stunt Extreme",
+            "link": "https://channelstore.roku.com/en-ot/details/528933796a19ba7e2b9264319abe7994/stunt-extreme",
+            "icon": roku
+        },
+        {
+            "src": BikeStunt,
+            "name": "Bike Stunt",
+            "link": "https://channelstore.roku.com/en-ot/details/b98d73ef791066d4ed235dfaf263f48a/bike-stunt",
+            "icon": roku
+        },
+        {
+            "src": BMXKid,
+            "name": "BMX Kid",
+            "link": "https://channelstore.roku.com/en-ot/details/b512813514b423c60296a71fe7f9f132/bmx-kid",
             "icon": roku
         },
         {

@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.df182afa.css",
-    "main.js": "/static/js/main.6bb03e33.js",
+    "main.css": "/static/css/main.374851fc.css",
+    "main.js": "/static/js/main.4244ebbd.js",
     "static/js/496.1ebda612.chunk.js": "/static/js/496.1ebda612.chunk.js",
     "static/media/MissionDestruction.png": "/static/media/MissionDestruction.de6c99564fc59b916cb4.png",
     "static/media/FruitCutter.png": "/static/media/FruitCutter.02fac9e725a977d344cf.png",
     "static/media/Strikeforce.webp": "/static/media/Strikeforce.4c20174e8b33a5fda8c6.webp",
+    "static/media/BikeStunt.png": "/static/media/BikeStunt.ae89dfe892e51806397d.png",
     "static/media/Archery3D.png": "/static/media/Archery3D.1015674a41ef40f6b0f7.png",
+    "static/media/StuntExtreme.png": "/static/media/StuntExtreme.58877b561eac3f32efd3.png",
     "static/media/StreetRacer.png": "/static/media/StreetRacer.10ba2317c33a775ee409.png",
+    "static/media/BMX.png": "/static/media/BMX.1343274c3204f0240bd9.png",
     "static/media/logo.jpeg": "/static/media/logo.46624b4eafcb7e887e8d.jpeg",
+    "static/media/CV.pdf": "/static/media/CV.6e19d2c2a9ef293ee92b.pdf",
+    "static/media/CV.png": "/static/media/CV.242d775e392a0525092a.png",
     "static/media/github.png": "/static/media/github.dd9443de5ca1b6d40513.png",
     "static/media/amazon.webp": "/static/media/amazon.ca06b9ea81b04e75fb49.webp",
     "index.html": "/index.html",
-    "main.df182afa.css.map": "/static/css/main.df182afa.css.map",
-    "main.6bb03e33.js.map": "/static/js/main.6bb03e33.js.map",
+    "main.374851fc.css.map": "/static/css/main.374851fc.css.map",
+    "main.4244ebbd.js.map": "/static/js/main.4244ebbd.js.map",
     "496.1ebda612.chunk.js.map": "/static/js/496.1ebda612.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df182afa.css",
-    "static/js/main.6bb03e33.js"
+    "static/css/main.374851fc.css",
+    "static/js/main.4244ebbd.js"
   ]
 }

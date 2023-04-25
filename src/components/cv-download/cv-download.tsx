@@ -1,6 +1,6 @@
 import styles from './cv-download.module.scss';
 import classNames from 'classnames';
-import CVDoc from "../../assets/CV.pdf";
+// import CVDoc from "../../assets/CV.pdf";
 import CV from '../../assets/CV.png';
 
 export interface CVDownloadProps {
@@ -14,7 +14,7 @@ export interface CVDownloadProps {
 export const CVDownload = ({ className }: CVDownloadProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <a href={CVDoc} download="Ketan Dutt CV" target="_blank">
+            <a href={CV} download="Ketan Dutt CV" target="_blank">
                 <img src={CV} className={styles.CVImg} />
             </a>
         </div>

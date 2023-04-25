@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.be82aeec.css",
-    "main.js": "/static/js/main.ba628712.js",
+    "main.js": "/static/js/main.a8b0cf05.js",
     "static/js/496.1ebda612.chunk.js": "/static/js/496.1ebda612.chunk.js",
     "static/media/MissionDestruction.png": "/static/media/MissionDestruction.de6c99564fc59b916cb4.png",
     "static/media/FruitCutter.png": "/static/media/FruitCutter.02fac9e725a977d344cf.png",
@@ -12,16 +12,17 @@
     "static/media/StreetRacer.png": "/static/media/StreetRacer.10ba2317c33a775ee409.png",
     "static/media/BMX.png": "/static/media/BMX.1343274c3204f0240bd9.png",
     "static/media/logo.jpeg": "/static/media/logo.46624b4eafcb7e887e8d.jpeg",
+    "static/media/CV.pdf": "/static/media/CV.6e19d2c2a9ef293ee92b.pdf",
     "static/media/CV.png": "/static/media/CV.242d775e392a0525092a.png",
     "static/media/github.png": "/static/media/github.dd9443de5ca1b6d40513.png",
     "static/media/amazon.webp": "/static/media/amazon.ca06b9ea81b04e75fb49.webp",
     "index.html": "/index.html",
     "main.be82aeec.css.map": "/static/css/main.be82aeec.css.map",
-    "main.ba628712.js.map": "/static/js/main.ba628712.js.map",
+    "main.a8b0cf05.js.map": "/static/js/main.a8b0cf05.js.map",
     "496.1ebda612.chunk.js.map": "/static/js/496.1ebda612.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be82aeec.css",
-    "static/js/main.ba628712.js"
+    "static/js/main.a8b0cf05.js"
   ]
 }

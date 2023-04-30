@@ -13,10 +13,10 @@
 
 .header {
   color: white;
-  font-size: 30px;
   font-weight: 600;
   margin: 0px;
   padding: 0px;
+  font-size: 3.5vh;
 }
 
 .logoHeader {
@@ -32,7 +32,7 @@
     height: 27vh;
   }
 
-  margin: 2px;
+  margin: 0px;
 }
 
 .logoParent {
@@ -44,22 +44,22 @@
   justify-items: center;
   align-content: center;
   justify-content: center;
-  margin: 20px;
+  margin: 1vh;
   padding: 0px;
 }
 
 .description {
   font-weight: 400;
   padding: 0px;
-  margin: 10px;
-  font-size: 17px;
+  margin: 1vh;
+  font-size: 2vh;
 }
 
 .connectText {
   margin: 0px;
   padding: 0px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.5vh;
 }
 
 .connectImgParent {
@@ -73,14 +73,14 @@
   height: 10vh;
   max-height: 10vh;
   min-height: 10vh;
-  margin: 10px;
+  margin: 1vh;
 }
 
 .connectImg {
   width: 6vh;
   height: 6vh;
   border-radius: 0px;
-  margin: 2vh;
+  margin: 1vh;
   transition: 0.1s ease-in-out;
 
   &:hover {

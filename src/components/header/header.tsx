@@ -1,6 +1,6 @@
 import styles from './header.module.scss';
 import classNames from 'classnames';
-import img from '../../assets/logo.jpeg';
+import img from '../../assets/logo.jpg';
 import gmail from '../../assets/gmail.png';
 import github from '../../assets/github.png';
 import instagram from '../../assets/instagram.png';
